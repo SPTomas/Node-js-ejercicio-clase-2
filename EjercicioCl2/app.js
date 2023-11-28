@@ -8,7 +8,6 @@ const juego = () => {
     console.log('Intenta adivinar un numero del 1 al 100...');
 
     const secreto = ramdonNum();
-    console.log(secreto);
 
     let adivinado = undefined;
     let intentos = 0;
